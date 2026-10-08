@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A fictional document intake assistant demo.">
+    <title>Document Intake Assistant</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <h1>Document Intake Assistant</h1>
+        <p class="fiction-notice">Fictional example. Not legal advice.</p>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="panel chat-panel" aria-labelledby="chat-heading">
+        <div class="panel-heading">
+          <h2 id="chat-heading">Chat</h2>
+          <button id="new-conversation" class="button button-secondary" type="button">
+            New conversation
+          </button>
+        </div>
+        <div id="error-banner" class="error-banner" role="alert" hidden></div>
+        <div
+          id="chat-messages"
+          class="chat-messages"
+          role="log"
+          aria-live="polite"
+          aria-relevant="additions text"
+          aria-label="Conversation"
+        ></div>
+        <div id="thinking-indicator" class="thinking-indicator" aria-live="polite" hidden>
+          Thinking...
+        </div>
+        <div id="warning-list" class="warning-list" aria-live="polite"></div>
+        <form id="message-form" class="message-form">
+          <label for="message-input">Your message</label>
+          <textarea
+            id="message-input"
+            name="message"
+            rows="3"
+            maxlength="2000"
+            placeholder="Type your response..."
+            disabled
+          ></textarea>
+          <div class="form-footer">
+            <span id="character-count" class="character-count" aria-live="polite">0 / 2000</span>
+            <button id="send-button" class="button button-primary" type="submit" disabled>
+              Send
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel information-panel" aria-labelledby="information-heading">
+        <div class="panel-heading">
+          <h2 id="information-heading">Collected information</h2>
+        </div>
+        <ul id="collected-fields" class="collected-fields"></ul>
+      </section>
+
+      <section class="panel document-panel" aria-labelledby="document-heading">
+        <div class="panel-heading">
+          <h2 id="document-heading">Draft document</h2>
+        </div>
+        <pre id="draft-document" class="draft-document"></pre>
+      </section>
+    </main>
+  </body>
+</html>
