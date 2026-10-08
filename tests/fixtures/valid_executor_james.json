@@ -1,0 +1,8 @@
+{
+  "updates": [
+    {"field": "executor.name", "value": "James", "confidence": "stated"},
+    {"field": "executor.relationship", "value": "brother", "confidence": "stated"}
+  ],
+  "needs_clarification": [],
+  "assistant_message": "Would you like to leave any gifts?"
+}

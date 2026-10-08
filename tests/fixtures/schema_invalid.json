@@ -1,0 +1,7 @@
+{
+  "updates": [
+    {"field": "full_name", "value": "Jane", "confidence": "certain"}
+  ],
+  "needs_clarification": "this should be a list",
+  "assistant_message": "This JSON is valid but does not match the contract."
+}

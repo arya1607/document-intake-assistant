@@ -1,0 +1,9 @@
+{
+  "updates": [
+    {"field": "covers_worldwide_assets", "value": true, "confidence": "ambiguous"}
+  ],
+  "needs_clarification": [
+    {"field": "covers_worldwide_assets", "reason": "Please clarify whether worldwide assets should be covered."}
+  ],
+  "assistant_message": "Should this document cover your worldwide assets?"
+}

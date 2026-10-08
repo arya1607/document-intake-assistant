@@ -1,0 +1,9 @@
+{
+  "updates": [
+    {"field": "full_name", "value": "Jane Smith", "confidence": "stated"},
+    {"field": "home_address", "value": "10 Example Street", "confidence": "stated"},
+    {"field": "has_children", "value": true, "confidence": "stated"}
+  ],
+  "needs_clarification": [],
+  "assistant_message": "What are your children's names?"
+}

@@ -1,0 +1,8 @@
+{
+  "updates": [
+    {"field": "has_children", "value": true, "confidence": "stated", "is_correction": true},
+    {"field": "children_names", "value": ["Tom", "Ana"], "confidence": "stated"}
+  ],
+  "needs_clarification": [],
+  "assistant_message": "Thank you. What are your children's names?"
+}

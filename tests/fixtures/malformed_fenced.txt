@@ -1,0 +1,4 @@
+Here is the response you requested:
+```json
+{"updates": [], "needs_clarification": [], "assistant_message": "Thank you."}
+```
