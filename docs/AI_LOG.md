@@ -45,7 +45,8 @@
     scenario flows, and API-level checks with pytest, ensuring the main flow works
     without calling real external LLM services.
 
-## Remaining steps
+## Remaining steps / Future Improvements
+
 - Add persistent storage so sessions survive restarts.
 - Add authentication and per-user session handling.
 - Add rate limiting, logging, and privacy-safe observability.
